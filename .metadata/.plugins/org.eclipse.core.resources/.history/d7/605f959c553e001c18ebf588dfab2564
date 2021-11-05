@@ -1,0 +1,25 @@
+#include <stdio.h>
+// INCLUINDO A BIBLIOTECA stdio.h
+// std = Standard (PADRÃO)
+// io = input/output (ENTRADA/SAÍDA)
+
+// FUNÇÃO QUE RETORNA UM INTEIRO
+int main() {
+	// DECLARANDO VARIÁVEIS
+	int num1, num2, resultado;
+
+	// ENTRADAS
+	printf("Informe o primeiro número: ");
+	fflush(stdout);
+	scanf("%d", &num1);	// ENTRADA DE DADOS
+
+	printf("Informe o segundo número: ");
+	fflush(stdout);
+	scanf("%d", &num2); // ENTRADA DE DADOS
+
+	// PROCESSAMENTO
+	resultado = (num1 + num2) * num1;
+
+	// SAÍDA
+	printf("O resultado é %d", resultado);
+}

@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	float metros, cm;
+
+	printf("Digite um valor em metros: ");
+	fflush(stdout);
+
+	cm = metros * 100;
+
+	printf("%f metros equivale(m) a %f cm", metros, cm);
+}

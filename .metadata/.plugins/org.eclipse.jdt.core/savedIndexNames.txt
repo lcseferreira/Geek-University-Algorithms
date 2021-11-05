@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\lcsef\eclipse-workspace\Udemy-Algorithms\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1181401305.index
+3413725848.index
