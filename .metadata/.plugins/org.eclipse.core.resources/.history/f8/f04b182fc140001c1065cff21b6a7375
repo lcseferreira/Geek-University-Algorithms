@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+	int id, defeito, quantidade, necessita_esfera, necessita_limpeza, necessita_cabo, quebrado;
+
+	printf("Digite o id do mouse ou 0 para encerrar: ");
+	fflush(stdout);
+	scanf("%d", &id);
+
+	while (id != 0) {
+
+		printf("Identifique o defeito:\n"
+				"1 = necessita de esfera\n"
+				"2 = necessita de limpeza\n"
+				"3 = necessita de troca de cabo ou conector\n"
+				"4 = quebrado ou inutilizado\n\n"
+				"Digite o defeito: ");
+		fflush(stdout);
+		scanf("%d", defeito);
+
+		if (defeito == 1) {
+			necessita_esfera += 1;
+		} else if (defeito == 2) {
+			necessita_limpeza += 1;
+		} else if (defeito == 3) {
+			necessita_cabo += 1;
+		} else if (defeito == 4) {
+			quebrado += 1;
+		} else {
+			printf("Entrada inválida")
+		}
+
+		printf("Digite o id do mouse ou 0 para encerrar: ");
+		fflush(stdout);
+		scanf("%d", &id);
+	}
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+	int id, defeito, quantidade, necessita_esfera, necessita_limpeza, necessita_cabo, quebrado;
+
+	printf("Digite o id do mouse ou 0 para encerrar: ");
+	fflush(stdout);
+	scanf("%d", &id);
+
+	while (id != 0) {
+
+	}
+}

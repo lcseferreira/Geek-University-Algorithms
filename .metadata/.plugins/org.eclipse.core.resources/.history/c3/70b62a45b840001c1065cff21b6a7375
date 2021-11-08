@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+	char nome[], senha[];
+
+	printf("Digite o nome do usuário: ");
+	fflush(stdout);
+	scanf("%s", &nome);
+
+	printf("Digite a senha do usuário: ");
+		fflush(stdout);
+		scanf("%s", &nome);
+
+}

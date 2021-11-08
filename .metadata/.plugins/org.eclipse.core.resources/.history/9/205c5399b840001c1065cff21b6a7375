@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+	char * nome[];
+	char * senha[];
+
+	printf("Digite o nome do usuário: ");
+	fflush(stdout);
+	scanf("%s", &nome);
+
+	printf("Digite a senha do usuário: ");
+	fflush(stdout);
+	scanf("%s", &senha);
+
+	while (nome == senha) {
+		printf("A senha não pode ser igual ao nome");
+
+		printf("Digite o nome do usuário: ");
+		fflush(stdout);
+		scanf("%s", &nome);
+
+		printf("Digite a senha do usuário: ");
+		fflush(stdout);
+		scanf("%s", &senha);
+	}
+
+	printf("Login realizado com sucesso");
+
+}

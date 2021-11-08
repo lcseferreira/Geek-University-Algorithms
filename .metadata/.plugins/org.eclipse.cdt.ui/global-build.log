@@ -1,8 +1,8 @@
-13:35:18 **** Clean-only build of configuration Debug for project ProgramasC ****
+15:47:36 **** Clean-only build of configuration Debug for project ProgramasC ****
 rm -rf 
 Cannot run program "rm": Launching failed
 
 Error: Program "rm" not found in PATH
 PATH=[C:\MinGW\bin;\bin;\usr\bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;%JAVA_HOME%\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;%JAR_HOME%\bin;C:\MinGW\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lcsef\AppData\Local\Microsoft\WindowsApps;;C:\Users\lcsef\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lcsef\AppData\Roaming\npm]
 
-13:35:18 **** Clean-only build of configuration Debug for project ProgramasC ****
+15:47:36 **** Clean-only build of configuration Debug for project ProgramasC ****
