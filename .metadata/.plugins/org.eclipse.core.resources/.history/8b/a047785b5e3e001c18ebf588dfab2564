@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+	int num, p, i;
+
+	printf("Digite um número: ");
+	fflush(stdout);
+	scanf("%d", &num);
+
+	if (num / 2 == 0) {
+		p = num;
+		printf("%d é par", p);
+	} else {
+		b = num;
+		printf("Valor negativo \n");
+		printf("%d", b);
+	}
+}

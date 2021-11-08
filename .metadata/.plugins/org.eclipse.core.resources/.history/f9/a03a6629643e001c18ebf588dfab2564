@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+	float peso, excesso, multa;
+
+	printf("Digite o peso dos peixes: ");
+	fflush(stdout);
+	scanf("%f", &peso);
+
+	if (peso > 50) {
+		excesso = peso - 50;
+		multa = excesso * 4;
+	} else {
+		excesso = 0;
+		multa = 0;
+	}
+
+	printf("Peso: %.2f", peso);
+	printf("Excesso: %.2f", excesso);
+	printf("multa: %.2f", multa);
+}

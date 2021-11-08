@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+	int horas, excesso;
+	float salario, extra;
+
+	printf("Digite o número de horas trabalhadas: ");
+	fflush(stdout);
+	scanf("%d", &horas);
+
+	if (horas > 50) {
+		excesso = horas - 50;
+		extra = excesso * 20;
+		salario = horas * 10 + excesso;
+
+		printf("Salário: R$ %.2f \n", salario);
+		printf("Salário extra: R$ %.2f \n", extra);
+	} else {
+		salario = horas * 10;
+
+		printf("Salário: R$ %.2f \n", salario);
+		printf("Salário extra: R$ %.2f \n", extra);
+	}
+
+
+
+	printf("Salário: R$ %.2f \n", salario);
+	printf("Salário extra: R$ %.2f \n", extra);
+}
