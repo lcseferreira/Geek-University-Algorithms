@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+	int vetor[5], pares[];
+
+	for (int i = 0; i < 5; i++) {
+		printf("Digite um número: ");
+		fflush(stdout);
+		scanf("%d", &vetor);
+
+		if ((vetor[i] > 0) && (vetor[i] % 2 == 0)) {
+			pares[vetor[i]];
+		}
+	}
+
+	printf("%d", pares);
+}
