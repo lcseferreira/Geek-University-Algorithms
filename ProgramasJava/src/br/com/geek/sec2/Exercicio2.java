@@ -19,7 +19,7 @@ public class Exercicio2 {
 		soma = num1 + num2;
 		multiplicacao = soma * num1;
 		
-		System.out.println(multiplicacao);
+		System.out.println("O resultado da multiplicação é " + multiplicacao);
 		
 		input.close();
 	}
