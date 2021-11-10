@@ -1,0 +1,32 @@
+package br.com.geek.sec6;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+		
+		// Declaração de variáveis
+		int numero;
+		Scanner input = new Scanner(System.in);
+		
+		// Entrada
+		System.out.println("Digite um número: ");
+		numero = input.nextInt();
+		
+		// Processamento + Saídas
+		if ((numero > 0) && (numero % 2 == 0)) {
+			System.out.printf("O número %d é positivo e par!", numero);
+		} else if ((numero > 0) && !(numero % 2 == 0)) {
+			System.out.printf("O número %d é positivo e ímpar!", numero);
+		} else if ((numero < 0) && (numero % 2 == 0)) {
+			System.out.printf("O número %d é negativo e par!", numero);
+		} else if ((numero < 0) && !(numero % 2 == 0)) {
+			System.out.printf("O número %d é negativo e ímpar!", numero);
+		} else {
+			System.out.printf("O número %d é neutro!", numero);
+		}
+		
+		input.close();
+	}
+}

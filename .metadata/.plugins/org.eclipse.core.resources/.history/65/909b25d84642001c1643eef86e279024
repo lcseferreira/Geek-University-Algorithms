@@ -1,0 +1,16 @@
+package br.com.geek.sec7;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		int valor, maior = -999, menor = 999;
+		float media;
+		Scanner input = new Scanner(System.in);
+		
+		
+	}
+
+}

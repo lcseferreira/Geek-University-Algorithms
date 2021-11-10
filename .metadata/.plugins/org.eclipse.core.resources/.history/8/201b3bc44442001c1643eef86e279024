@@ -1,0 +1,28 @@
+package br.com.geek.sec6;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		
+		// Declaração de variáveis
+		float indice_poluicao;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Digite o índice de poluição: ");
+		indice_poluicao = input.nextFloat();
+		
+		if ((indice_poluicao >= 0.3) && (indice_poluicao < 0.4)) {
+			System.out.println("Indústrias do G1 - Suspender atividades.");
+		} else if ((indice_poluicao >= 0.4) && (indice_poluicao < 0.5)) {
+			System.out.println("Indústrias do G1 e G2 - Suspender atividades.");
+		} else if (indice_poluicao >= 0.5) {
+			System.out.println("Indústrias do G1, G2 e G3 - Suspender atividades.");
+		} else {
+			System.out.println("O nível de poluição está controlado.");
+		}
+		
+		input.close();
+	}
+}
