@@ -1,0 +1,33 @@
+package br.com.geek.sec8;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		List<Integer> vetor = new ArrayList<>();
+		int codigo; 
+		Scanner input = new Scanner(System.in);
+		
+		vetor.add(1);
+		vetor.add(2);
+		vetor.add(3);
+		vetor.add(4);
+		vetor.add(5);
+		
+		System.out.println("Digite um código: ");
+		codigo = input.nextInt();
+		
+		if (codigo == 0) {
+			break;
+		} else if {
+			
+		}
+		
+		input.close();
+	}
+
+}
