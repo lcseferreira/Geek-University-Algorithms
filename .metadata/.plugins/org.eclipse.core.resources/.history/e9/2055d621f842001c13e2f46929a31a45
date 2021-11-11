@@ -1,0 +1,6 @@
+# -*- coding: UTF-8 -*-
+for i in range(0, 100):
+    if i % 10 == 0:
+       print(f"{i} é divisível por 10") 
+    else:
+        print(i)
