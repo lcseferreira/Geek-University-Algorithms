@@ -1,7 +1,0 @@
-# -*- coding: UTF-8 -*-
-numero = int(input("Digite um número: "))
-
-if numero > 100: 
-    print(numero)
-else:
-    print(0)

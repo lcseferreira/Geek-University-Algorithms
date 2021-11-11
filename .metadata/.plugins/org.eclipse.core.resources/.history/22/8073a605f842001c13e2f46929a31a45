@@ -1,7 +1,0 @@
-# -*- coding: UTF-8 -*-
-for i = 0; i <= 100; i++:
-    if i % 10 == 0:
-       print(f"{i} é divisível por 10") 
-    else:
-        print(i)
-print(f"O maior número é o {maior}")
