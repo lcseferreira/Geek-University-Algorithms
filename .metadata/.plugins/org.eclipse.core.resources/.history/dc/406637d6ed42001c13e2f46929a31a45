@@ -1,0 +1,13 @@
+# -*- coding: UTF-8 -*-
+n = int(input("Digite o número de horas trabalhadas: "))
+hora_exc = 0
+
+if n > 50:
+    hora_exc = n - 50
+    salario_ext = hora_exc * 20
+    salario_ini = 50 * 10
+else:
+    salario_ini = n * 10
+    salario_ext = 0
+
+print(f"Salário inicial: {salario_inic}")    

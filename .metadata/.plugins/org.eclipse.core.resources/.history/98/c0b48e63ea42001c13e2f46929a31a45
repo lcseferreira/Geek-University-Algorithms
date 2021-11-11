@@ -1,0 +1,11 @@
+# -*- coding: UTF-8 -*-
+numero = int(input("Digite um número: "))
+p = 0
+i = 0
+
+if numero % 2 == 0: 
+    p = numero
+if numero % 2 != 0:
+    i = numero
+
+print(f"{p}\n{i}")
